@@ -40,7 +40,7 @@ Resources:
   MyLaunchConfig:
     Type: AWS::AutoScaling::LaunchConfiguration
     Properties:
-      ImageId: "ami-123456"
+      ImageId: "ami-0622ddf81c768f643"
       InstanceType: "t2.micro"
       KeyName: "AMAN_key"
       SecurityGroups:
