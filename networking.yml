@@ -60,7 +60,7 @@ Resources:
   NATGateway:
     Type: AWS::EC2::NatGateway
     Properties:
-      AllocationId: "eip-09218539dfehhip0"
+      AllocationId: "eip-09218539dfehhip4"
       SubnetId: !Ref PublicSubnet1
 
   PrivateRouteTable:
